@@ -1,0 +1,13 @@
+# Generated at fetch time (locally: symlinks into ~/Library/Application Support)
+data.js
+data.json
+fetch.log
+fetch.err
+.fetch.lock
+
+# Local machine setup, not part of the site
+com.falk.markets-fetcher.plist
+figures/
+
+.DS_Store
+__pycache__/

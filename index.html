@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Markets</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Markets dashboard</h1>
+    <span class="updated"></span>
+    <span class="spacer"></span>
+    <div class="range-row" role="group" aria-label="Time range"></div>
+  </header>
+  <main></main>
+  <footer class="site-footer">
+    <p class="attribution">
+      <strong>About.</strong>
+      This page began as a personal educational project and remains one: a non-commercial hobby
+      dashboard for learning about markets and data visualisation, shared in case it is useful to
+      others. It carries no advertising, charges nothing, and sells nothing.
+    </p>
+    <p class="attribution">
+      <strong>Data sources.</strong>
+      Index, FX, commodity and crypto quotes via Yahoo Finance (unofficial API; end-of-day and delayed values).
+      US Treasury yields: Board of Governors of the Federal Reserve System (H.15), retrieved via FRED&#174;, Federal Reserve Bank of St.&thinsp;Louis.
+      Euro-area 10Y yield: Source: European Central Bank (AAA-rated euro area government bond yield curve).
+      US home prices: FHFA House Price Index (purchase-only), via FRED.
+      International home prices: Source: Bank for International Settlements, residential property price statistics, via FRED.
+      S&amp;P&#8202;500 valuation series (EPS, P/E, CAPE, dividend yield): Robert Shiller's published dataset and multpl.com.
+    </p>
+    <p class="attribution">
+      <strong>Derived figures.</strong>
+      All ratios, spreads, indexed-to-100 comparisons, and the daily interpolation of monthly valuation
+      series are computed by this page from the sources above. They are this site's own calculations,
+      not official published values, and may differ from the providers' figures.
+    </p>
+    <p class="disclaimer">
+      All data is provided &ldquo;as is&rdquo;, for personal, informational purposes only. It may be delayed,
+      incomplete, or inaccurate, and must not be used for trading or investment decisions. Nothing on this
+      page constitutes investment advice, research, or a recommendation. This site is independent and is not
+      affiliated with, endorsed by, or sponsored by any data provider, exchange, or index owner. Index names
+      and trademarks belong to their respective owners and are used solely to identify the data displayed.
+    </p>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
